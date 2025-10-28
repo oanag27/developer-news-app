@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 const Register: React.FC = () => {
   const [userName, setUserName] = useState("");
   const [email, setEmail] = useState("");

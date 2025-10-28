@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { useAuth } from "../components/auth/AuthContext";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState("");
